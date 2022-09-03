@@ -1,0 +1,14 @@
+
+
+h1{
+    font-size: 40pt;
+    color: rgb(255, 218, 148);
+}
+
+.content {
+    font-size: 14pt;
+    padding-left: 10%;
+    width : 80%;
+    float: center;
+    color: rgb(231, 255, 194)
+}
