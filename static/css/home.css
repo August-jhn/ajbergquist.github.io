@@ -1,0 +1,57 @@
+.slideshow {
+    position: relative;
+    margin: auto;
+    float: center
+}
+
+.slide {
+    display : none; /* this hides them by default,
+     until the javascript turns them on*/
+    float: left;
+    width : 40vw
+     
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+
+
+.slide-image {
+    width : 40vw;
+    height: 40vw;
+    border-radius : 10%;
+    border:2vh solid rgb(216, 255, 181);
+
+}
+
+.gallary{
+    width : 100vw;
+}
+
+.gallary-view{
+    
+    width: 50vw;
+    height: 40vw;
+    
+    float : left;
+    padding-left: 1cm;
+    overflow-y: scroll;
+}
+
+.gallary-label{
+    text-align: center;
+}
+
+.gallary-image{
+    width: 10vw;
+    height: 10vw;
+    
+    border-radius: 10%;
+    border:2vh solid rgb(216, 255, 181);
+}
+
+@keyframes fade {
+    from {opacity: 0}
+    to {opacity: 1}
+  }

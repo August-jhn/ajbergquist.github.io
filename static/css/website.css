@@ -1,0 +1,9 @@
+
+
+.header {
+    height: 30vw;
+    background-image : url("../media/header.png");
+    background-position: center;
+    background-size: cover;
+    float: center;
+}

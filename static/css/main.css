@@ -1,0 +1,40 @@
+html {
+    background-color : black;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    height: 1200px
+}
+
+.header_text{
+    color : rgb(179, 255, 149)
+}
+
+.navbar {
+    background-color : rgb(215, 255, 169);
+    overflow : hidden;
+    height: 50px;
+}
+.navbar {
+    height: 50px;
+}
+.navbar a {
+    float: left;
+    color : rgb(56, 56, 56);
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(97, 255, 113);
+    color: rgb(0, 0, 0)
+}
+
+.navbar a:visited {
+    color: rgb(0, 0, 0)
+}
+@media (min-width : 900px){
+    .navbar a{padding: 15px 50px;}
+}
