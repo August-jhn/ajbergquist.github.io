@@ -1,0 +1,14 @@
+https://math.berkeley.edu/~kmill/notes/todd_coxeter.html
+
+https://math.berkeley.edu/~kmill/tools/tc.html
+
+goals: 
+
+learn coxeter algorithm
+
+create program for representation of polytopes, make visualization
+
+make slides introducing the ideas
+
+https://github.com/allemangD/cosets
+
