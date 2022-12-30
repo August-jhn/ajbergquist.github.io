@@ -6,9 +6,9 @@ h1{
 }
 
 .content {
-    font-size: 14pt;
+    font-size: 120%;
     padding-left: 10%;
-    width : 80%;
+    width : 90%;
     float: center;
     color: rgb(231, 255, 194)
 }

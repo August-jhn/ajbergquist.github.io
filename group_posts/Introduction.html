@@ -14,56 +14,39 @@
 </head>
 <body>
 <div class = "content">
+    <h1>Introduction</h1>
+
     <p>
-        Groups are often introduced as an algebraic abstraction of <b>symmetry</b>. While this is true, it is only part of the picture. In fact
-        groups are probably the richest, most applicable, and most interesting algebraic structures. Symmetry is only one of the things that groups
-        are good for modeling. Groups can be viewed from a variety of angles. Many theorems suggest that groups "are" one thing or another. Representation
-        theory is about groups being transformations over a vector space. Cayley's theorem tells us that groups are permutations on sets. It is probably best to
-        actually start with a definition. After providing the definition, we'll learn a couple of examples. From those examples, we'll find a number of common
-        phenomena. Those common phenomena will be unified through groups, and we will find that all of our observations can be unified through a theory about groups in general. This theory goes by the name of <b>Group Theory</b>.
+        The problem with abstract ideas is that they often feel useless and boring. Group theory is especially this way, at least to me.
+        Sometime the results of group theory, at least those learned in my classes, seem obvious and hardly worth saying. Even for those 
+        theorems which are non-obvious, it is often difficult to see why I would care about them. Groups don't seem powerful if introduced
+        in a way that is disconnected from how they arose. Every abstraction has a beginning that is not abstract. Groups are no exception.<br>
+        <br>
+
+        Earlier this year I set out to find examples of the power of group theory. This has lead me to learn about a number of different fascinating topics.
+        In the realm of geometry, my inquiry has lead me to learn about uniform polytopes and their symmetry groups. I've learned about Coxeter groups, and 
+        their geometric realizations as Kaleidescopes. I've learned about the classification of all Coxeter groups. I've learned about Wythoff constructions;
+        about methods of taking a Coxeter group and building the polytope from it. My desire to learn how to actually <b> compute </b> polytopes has lead me to
+        learn about the Todd Coxeter algorithm. It has also forced me to refresh on some of the things which came up in my REU relating to the word problem of groups.
+
+        <br>
+        In the realm of topology, I've been learning about the fundamental group, about the knot group (which, it turns out, is the fundamental group of the knot complement in \(\mathbb{R}^3\)), and about
+        the applications of the fundamental group to a number of areas in topology, algebra, knot theory, and, well group theory! I've learned that, through the use
+        of graphs and their fundamental groups, a proof that the subgroups of the free group are all free is achievable! What's more, I've learned that this is
+        pretty much the only easy way to prove this! I hope to go through the proof in greater depth, and I hope that my blog series will allow me to do just that.
+
+        It may be said, whether correctly or not, that mathematical power is best demonstrated through computation and classification. Groups, it turns out, are powerful
+        in both ways! They can be used as a computational tool, especially in computing the vertices and lattice structure of
+        certain special classes of polytopes. They can be used to classify such polytopes, to distinguish between and understand various topological spaces, 
+        and to classify all connected, complete, euclidean spaces. This only scratches the surface of the power of group theory.
 
         <br>
         <br>
-         The definition of a group is simple, and therein lies the great mystery: how can such a simple construction be so powerful,
-        so rich, and so useful? 
-        
-        <br>
-        <br>
-
-        <b>Definition.</b> Let \(G\) be a set, and let \(\cdot\) be a binary operation <b>on</b> \(G\). Then \((G,\cdot)\) is a <b>group</b> if the following conditions are satisfied
-        <ul>
-            <li>
-                The operation \(\cdot\) is associative (i.e. for any \(g,h,k\in G\) we have \(g\cdot(h\cdot k) = (g\cdot h)\cdot k\) )
-            </li>
-            <li>
-                There is some element \(1\in G\), such that for any \(g\in G\), \(1\cdot g = g\cdot 1 = g\). This element is called the <b>identity</b>.
-            </li>
-            <li>
-                For every element \(g\in G\), there is some other element \(g^{-1}\in G\) such that \(1 = g\cdot g^{-1} = g^{-1}g\). This element is the called the <b>inverse</b>.
-            </li>
-        </ul>
-
-        Some include "closure". This is silly, however, for a binary operation is a function \(G\times G\to G\).
-        <br>
-        <br>
-
-        A number of somewhat interesting properties and equations are immediate consequences of this definition. I'll leave it to whoever's reading this to prove them, if they want something boring to do.
-
-        <ul>
-            <li>
-                The identity is unique (remember the definition of the identity).
-            </li>
-            <li>
-                For a given element, the inverse is unique.
-            </li>
-            <li>
-                If you want to undo the process of taking your shoes off and then your socks off, you've got to first put your socks on and then take your shoes off.
-                In other words, given elements \(g,h\in G\), the equation \((gh)^{-1} = h^{-1}g^{-1}\) holds.
-            </li>
-        </ul>
-        
-        Hopefully I have not bored you to death by providing this definition, and are still alive. I know that I myself barely survived the process. Let us now proceed to some interesting things.
+        The purpose of this section of my blog is to explore the power of group theory, especially in geometry. I hope to share this exploration with whoever reads this,
+        and to organize my inquiry through writing.
     </p>
+
+
 </div>
 
 </body>
