@@ -8,7 +8,7 @@
  
  <head>
  
-     <!-- <link rel="stylesheet" href = "../post-style.css"> -->
+     <link rel="stylesheet" href = "../post-style.css">
      <script type="text/javascript" async
    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
  </script>
@@ -21,16 +21,30 @@
     <h1>Introduction</h1>
 
     <p>
-        A knot is an <b>embeding</b> of the circle \(\mathbb{S}^1\to \R^3\). 
+        A knot is an <b>embeding</b> of the circle \(\mathbb{S}^1\hookrightarrow \mathbb{R}^3\). While each of these embedings are homeomorphic to each other, they can take on a variety of different shapes.
+        
+        For example, the trivial knot, which could be parametrized as \((cos\theta, \sin\theta), \theta \in [0,2\pi]\). (note that the 3d model of a knot is thickened so as to make it look nice. In reality, knots don't have any girth, and are a 1D object.)
+        
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+        <model-viewer src="unknot.glb" poster="media\header.png""" shadow-intensity="1" ar camera-controls touch-action="pan-y" alt="A 3D model carousel">
+            <br>
+            <br>
+
+            Another famous and simple type of knot is called the trefoil knot:
+        <model-viewer src="trefoil.glb" poster="media\header.png""" shadow-intensity="1" ar camera-controls touch-action="pan-y" alt="A 3D model carousel"></model-viewer>
+        There is also it's mirror image:
     </p>
-    <!-- Import the component -->
+    
+        
+
+
+
 
 
 </div>
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-<!-- Use it like any other HTML element -->
-<model-viewer src="unknot.glb" poster="media\header.png""" shadow-intensity="1" ar camera-controls touch-action="pan-y" alt="A 3D model carousel">
 
 </body>
 
