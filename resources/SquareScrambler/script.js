@@ -1,4 +1,4 @@
-const colors = 
+const COLORS = 
 [
 "red",
 "blue",
@@ -19,7 +19,7 @@ function getRandomCoordinates()
 
 function getRandomColor()
 {
-    return colors[Math.floor(Math.random()*colors.length)]
+    return COLORS[Math.floor(Math.random()*COLORS.length)]
 }
 
 function mouseClickedSquare()
